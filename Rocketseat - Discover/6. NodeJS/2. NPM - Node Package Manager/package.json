@@ -1,0 +1,14 @@
+{
+  "name": "2.-npm---node-package-manager",
+  "version": "1.0.0",
+  "description": "aprendendo node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cfonts": "^2.10.0"
+  }
+}

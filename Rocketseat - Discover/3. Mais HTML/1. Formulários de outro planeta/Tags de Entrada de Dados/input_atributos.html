@@ -1,0 +1,37 @@
+<!-- <input> Atributos comuns
+
+    - autocomplete
+    - autofocus
+    - disabled
+    - readonly (quase todos)
+    - value
+    - form (quase todos)
+    - name
+    - require (quase todos)
+    - placeholder (quase todos)
+-->
+
+<!-- Faz com que o navegador auto completa com email ja utilizado-->
+<input type="email"
+autocomplete="email">
+
+<!-- Automaticamente leva o cursor *somente um por página* -->
+<input type="text" autofocus>
+
+<!-- Deixa o input desabilitado -->
+<input type="text" disabled>
+<input type="text" readonly value="ativado readonly">
+
+<!-- Deixa um valor padrão preenchido -->
+<input type="text" value="default">
+
+<!-- Linka o input ao formulário -->
+<form id="meu-form"></form>
+<input name="email" type="email" form="meu-form">
+
+<!-- Torna o input obrigatório *deve ser preenchido* -->
+<input type="text" required>
+
+<!-- Uso do placeholder -->
+<input type="email"
+placeholder="Digite seu email">
